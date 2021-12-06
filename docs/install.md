@@ -95,7 +95,7 @@ Unlocking the bootloader on modern Samsung devices have some caveats. The newly 
 - Press the **Install** button in the Magisk card
 - If your device does **NOT** have boot ramdisk, make sure **"Recovery Mode"** is checked in options.<br>In most cases it should already be automatically checked.
 - Choose **"Select and Patch a File"** in method, and select the `AP` tar file
-- The Magisk app will patch the whole firmware file to `[Internal Storage]/Download/magisk_patched_[random_strings].tar`
+- The Magisk app will patch the whole o file to `[Internal Storage]/Download/magisk_patched_[random_strings].tar`
 - Copy the patched tar file to your PC with ADB:<br>
 `adb pull /sdcard/Download/magisk_patched_[random_strings].tar`<br>
 **DO NOT USE MTP** as it is known to corrupt large files.
